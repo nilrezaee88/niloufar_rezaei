@@ -1,0 +1,341 @@
+body {
+  background-color: #000000;
+  color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  animation: backgroundImage 5s forwards;
+}
+@keyframes backgroundImage {
+  from {
+    opacity: 50%;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+    background-image: url("../assets/images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
+  }
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-self: center;
+  justify-items: center;
+  height: 100%;
+  background-color: transparent;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#logo {
+  width: 100%;
+  cursor: pointer;
+  display: inline-block;
+  border-bottom: 1px solid rgb(229, 137, 16);
+  border-color: linear-gradient(
+    to right,
+    rgb(229, 137, 16),
+    rgb(246, 221, 188)
+  );
+  padding-bottom: 1rem;
+  opacity: 0.8;
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+p {
+  line-height: 2;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+img {
+  background-color: transparent !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  opacity: 0.7;
+}
+
+img:hover {
+  border-radius: 20px;
+  opacity: 1;
+}
+@keyframes img {
+  from {
+    opacity: 0.5;
+    width: 30px;
+    height: 30px;
+  }
+  to {
+    opacity: 1;
+    width: 35px;
+    height: 35px;
+  }
+}
+.socialmedia {
+  justify-content: space-between;
+  width: 130px;
+  align-self: center;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.main-projects {
+  display: flex;
+  flex-direction: column;
+  width: 12%;
+}
+#main-description {
+  transform-origin: 0;
+  opacity: 1;
+  transition: all 0.2s linear;
+  transform: scaleX(1);
+  width: 70%;
+  align-self: center;
+}
+@keyframes welFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.welcome-container {
+  animation: welFadeIn 10s forwards;
+  opacity: 0;
+  width: 70%;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#welcome span {
+  display: inline-block;
+  opacity: 0;
+  animation-name: fadeInUp;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  font-size: 70px;
+}
+#welcome span:nth-child(1) {
+  animation-delay: 0.1s;
+  color: rgb(248, 224, 193);
+}
+#welcome span:nth-child(2) {
+  animation-delay: 0.3s;
+  color: rgb(244, 216, 179);
+}
+#welcome span:nth-child(3) {
+  animation-delay: 0.5s;
+  color: rgb(252, 220, 178);
+}
+#welcome span:nth-child(4) {
+  animation-delay: 0.7s;
+  color: rgb(246, 209, 165);
+}
+#welcome span:nth-child(5) {
+  animation-delay: 0.9s;
+  color: rgb(235, 197, 150);
+}
+#welcome span:nth-child(6) {
+  animation-delay: 1s;
+  color: rgb(225, 188, 143);
+}
+#welcome span:nth-child(7) {
+  animation-delay: 1.2s;
+  color: rgb(200, 166, 125);
+}
+#welcome span:nth-child(8) {
+  animation-delay: 1.4s;
+  color: rgb(190, 152, 107);
+}
+
+.main-projects p {
+  font-size: 30px;
+  padding-top: 1rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(229, 137, 16),
+    rgb(246, 221, 188)
+  );
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  padding-bottom: 0.5rem;
+}
+@keyframes fadProject {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+.projects-list a span {
+  text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(229, 137, 16),
+    rgb(246, 221, 188)
+  );
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: start;
+  transition: all 0.3s ease-in-out;
+  color: currentColor;
+  line-height: 2.1;
+}
+.projects-list a span:hover {
+  letter-spacing: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgb(247, 223, 191),
+    rgb(167, 98, 9)
+  );
+}
+.project-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  animation: fadProject 2s;
+}
+#a4baz-link {
+  font-size: 20px;
+}
+span {
+  font-size: 16px;
+}
+.view-project {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+}
+.view-project a {
+  padding-right: 1rem;
+  padding-bottom: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgb(229, 137, 16),
+    rgb(246, 221, 188)
+  );
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 93% 1px;
+  margin-right: 1rem;
+  opacity: 0.8;
+}
+.view-project a:hover {
+  opacity: 1;
+  font-weight: 500;
+  background-image: linear-gradient(
+    to right,
+    rgb(246, 221, 188),
+    rgb(229, 137, 16)
+  );
+}
+.project-description p {
+  color: rgb(249, 205, 147);
+}
+@media screen and (max-width: 1024px) {
+  #header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #container {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #welcome span {
+    font-size: 40px;
+  }
+  #main-description {
+    width: 100%;
+  }
+  .main-projects {
+    width: 100%;
+  }
+  .projects-list {
+    flex-direction: row;
+    width: 50%;
+    padding-top: 0;
+  }
+  .view-project {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .view-project a {
+    width: max-content;
+    padding-top: 1rem;
+  }
+  h2 {
+    font-size: larger;
+  }
+  #logo {
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 720px) {
+  .projects-list {
+    flex-direction: row;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 540px) {
+    #logo {
+        font-size: large;
+      }
+  h2 {
+    font-size: large;
+  }
+  .projects-list {
+    flex-direction: row;
+    justify-items: space-between;
+    width: 100%;
+  }
+  #welcome span {
+    font-size: 30px;
+  }
+}
