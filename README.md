@@ -13,7 +13,7 @@
 
 <p align="center"> 
   <samp>
-    「 I'm a web and mobile application front-end developer 」
+    「 I specialize in front-end development for both web and mobile applications. 」
     <br>
     <br>
   </samp>
