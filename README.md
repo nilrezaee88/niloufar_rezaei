@@ -41,11 +41,6 @@
  ✌️ &emsp; Enjoy to do programming and sharing knowledge <br/><br/>
  ❤️ &emsp; Love to writing code and learning new features<br/><br/>
  ⚡ &emsp; I'm enthusiastic about secure coding on the website.<br/><br/>
-          for this goal, I have passed some cyber security courses<br/><br/>
-          by self study. As a FrontEnd developer at heart who is<br/><br/> 
-          driven by continuous improvement, I love working in<br/><br/> 
-          an Agile team and contributing to the well being of<br/><br/> 
-          the world, as a Frontend developer.<br/><br/>
 </p>
 
 <br/>
