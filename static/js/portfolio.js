@@ -55,12 +55,12 @@ document.getElementById("tapin").addEventListener("click", function () {
     </div>
 </div>`;
 });
-document.getElementById("nextProject").addEventListener("click", function () {
-  document.getElementById(
-    "main-description"
-  ).innerHTML = `<div class="project-description">
-  </div>`;
-});
+// document.getElementById("nextProject").addEventListener("click", function () {
+//   document.getElementById(
+//     "main-description"
+//   ).innerHTML = `<div class="project-description">
+//   </div>`;
+// });
 document.getElementById("logo").addEventListener("click", function () {
   welcomeFunction();
 });
