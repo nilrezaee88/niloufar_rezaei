@@ -1,7 +1,3 @@
-# niloufar_rezaei.github.io
-
-[![](https://visitcount.itsvg.in/api?id=nilrezaee88&icon=5&color=0)](https://visitcount.itsvg.in)
-
 
 <!-- Intro  -->
 <h3 align="center">
@@ -19,6 +15,21 @@
   </samp>
 </p>
 
+<!-- About Section -->
+ # About me
+ 
+<p>
+ <img align="right" width="350" src="./static/assets/images/programmer.gif" alt="Coding gif" />
+  <br/><br/><br/>
+ ✌️ &emsp; Enjoy to do programming and sharing knowledge. <br/><br/>
+ ❤️ &emsp; Love to writing code and learning new features.<br/><br/>
+ ⚡ &emsp; I'm enthusiastic about secure coding on the website.<br/><br/>
+</p>
+
+<br/>
+<br/>
+<br/>
+
 # 🌐 Socials:
 <br/>
 
@@ -34,21 +45,6 @@
  </a> 
 </p>
 <br />
-
-<!-- About Section -->
- # About me
- 
-<p>
- <img align="right" width="350" src="./static/assets/images/programmer.gif" alt="Coding gif" />
-  <br/><br/><br/>
- ✌️ &emsp; Enjoy to do programming and sharing knowledge. <br/><br/>
- ❤️ &emsp; Love to writing code and learning new features.<br/><br/>
- ⚡ &emsp; I'm enthusiastic about secure coding on the website.<br/><br/>
-</p>
-
-<br/>
-<br/>
-<br/>
 
 # 💻 Tech Stack:
 <br/>
@@ -70,3 +66,6 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 <br/>
+
+
+[![](https://visitcount.itsvg.in/api?id=nilrezaee88&icon=5&color=0)](https://visitcount.itsvg.in)
