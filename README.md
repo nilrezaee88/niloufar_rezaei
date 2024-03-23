@@ -40,8 +40,11 @@
   
  ✌️ &emsp; Enjoy to do programming and sharing knowledge <br/><br/>
  ❤️ &emsp; Love to writing code and learning new features<br/><br/>
- ⚡ &emsp; I'm enthusiastic about secure coding on the website. for this goal, I have passed some cyber security courses by self study. As a FrontEnd developer at heart who is driven by continuous improvement, I love working in an Agile team and contributing to the well being of the world, as a Frontend developer.<br/><br/>
-
+ ⚡ &emsp; I'm enthusiastic about secure coding on the website.<br/><br/>
+          for this goal, I have passed some cyber security courses<br/><br/>
+          by self study. As a FrontEnd developer at heart who is<br/><br/> 
+          driven by continuous improvement, I love working in an Agile team<br/><br/> 
+          and contributing to the well being of the world, as a Frontend developer.<br/><br/>
 </p>
 
 <br/>
@@ -61,8 +64,6 @@
 ![SASS Badge](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-092749?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4&labelColor=000000)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Strapi](https://img.shields.io/badge/strapi-2E7EEA?style=for-the-badge&logo=strapi&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 ![React Query](https://img.shields.io/badge/-React_Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
 ![VSCode](https://img.shields.io/badge/Visual_Studio-0078d7?style=for-the-badge&logo=visual%20studio&logoColor=white)
