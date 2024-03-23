@@ -20,6 +20,8 @@
 </p>
 
 # 🌐 Socials:
+<br/>
+
 <p align="center">
  <a href="https://www.linkedin.com/in/niloufar-rezaei-187347232/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Rezaei"/>
@@ -38,7 +40,7 @@
  
 <p>
  <img align="right" width="350" src="./static/assets/images/programmer.gif" alt="Coding gif" />
-  <br/><br/><br/><br/>
+  <br/><br/><br/>
  ✌️ &emsp; Enjoy to do programming and sharing knowledge. <br/><br/>
  ❤️ &emsp; Love to writing code and learning new features.<br/><br/>
  ⚡ &emsp; I'm enthusiastic about secure coding on the website.<br/><br/>
@@ -49,6 +51,7 @@
 <br/>
 
 # 💻 Tech Stack:
+<br/>
 
 ![Javascript](https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
 ![Typescript](https://img.shields.io/badge/Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)
