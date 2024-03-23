@@ -1,25 +1,47 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #000000;
-  color: whitesmoke;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #d1d1d1;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  animation: backgroundImage 5s forwards;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
 }
-@keyframes backgroundImage {
-  from {
-    opacity: 50%;
-    transform: translateY(20px);
+
+body::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../assets/images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation: fadeInBackground 3s forwards;
+  opacity: 0;
+  z-index: -1;
+}
+
+@keyframes fadeInBackground {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px); /* Start from a higher position */
   }
-  to {
-    opacity: 100%;
-    transform: translateY(0);
-    background-image: url("../assets/images/background-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-origin: content-box;
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at the normal position */
   }
 }
+.main,
+.main * {
+  position: relative;
+  z-index: 1;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -29,26 +51,18 @@ body {
   align-self: center;
   justify-items: center;
   height: 100%;
-  background-color: transparent;
 }
 #header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 10rem;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 #logo {
   width: 100%;
   cursor: pointer;
   display: inline-block;
   border-bottom: 1px solid rgb(229, 137, 16);
-  border-color: linear-gradient(
-    to right,
-    rgb(229, 137, 16),
-    rgb(246, 221, 188)
-  );
   padding-bottom: 1rem;
   opacity: 0.8;
   font-size: 40px;
@@ -63,30 +77,34 @@ p {
 ul {
   list-style-type: none;
   display: flex;
+  justify-items: center !important;
+  width: 20%;
+  padding-right: 4%;
+}
+ul li {
+  height: 35px;
 }
 img {
-  background-color: transparent !important;
   width: 30px;
   height: 30px;
   border-radius: 15px;
   opacity: 0.7;
 }
-
 img:hover {
-  border-radius: 20px;
-  opacity: 1;
+  animation: fadBold 0.3s forwards;
 }
-@keyframes img {
+@keyframes fadBold {
   from {
-    opacity: 0.5;
     width: 30px;
-    height: 30px;
   }
   to {
-    opacity: 1;
     width: 35px;
     height: 35px;
   }
+}
+img:hover {
+  border-radius: 20px;
+  opacity: 1;
 }
 .socialmedia {
   justify-content: space-between;
@@ -98,13 +116,12 @@ img:hover {
   flex-direction: row;
   justify-content: space-between;
   height: auto;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 .main-projects {
   display: flex;
   flex-direction: column;
   width: 12%;
+  animation: welFadeIn 10s forwards;
 }
 #main-description {
   transform-origin: 0;
@@ -193,16 +210,7 @@ img:hover {
   background-size: 100% 1px;
   padding-bottom: 0.5rem;
 }
-@keyframes fadProject {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
+
 .projects-list {
   display: flex;
   flex-direction: column;
@@ -240,6 +248,16 @@ img:hover {
   flex-direction: column;
   line-height: 2;
   animation: fadProject 2s;
+}
+@keyframes fadProject {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 #a4baz-link {
   font-size: 20px;
@@ -314,19 +332,25 @@ span {
     font-size: larger;
   }
   #logo {
-    font-size: larger;
+    font-size: 40px;
   }
 }
-@media screen and (min-width: 541px) and (max-width: 720px) {
+@media screen and (min-width: 541px) and (max-width: 756px) {
   .projects-list {
     flex-direction: row;
     width: 70%;
   }
+  #logo {
+    font-size: 25px;
+  }
+  ul {
+    padding-right: 15%;
+  }
 }
 @media screen and (max-width: 540px) {
-    #logo {
-        font-size: large;
-      }
+  #logo {
+    font-size: 20px;
+  }
   h2 {
     font-size: large;
   }
@@ -337,5 +361,8 @@ span {
   }
   #welcome span {
     font-size: 30px;
+  }
+  ul {
+    padding-right: 13%;
   }
 }

@@ -9,7 +9,7 @@ const welcomeFunction = () => {
       <p id="welcome"></p>
       <span class='welcome-container'>
           <p>
-              My name is Niloufar Rezaei, I'm a front-end developer. I have developed some types of front-end
+              My name is Niloufar Rezaei, I'm a Frontend developer and holding a Bsc in Software Engineering from one of the best universities of Iran. I have developed some types of front-end
               applications from well know libraries and frameworks of Js Like react, react-native, next.js,
               typscript.
           </p>
@@ -27,7 +27,7 @@ document.getElementById("a4baz").addEventListener("click", function () {
   document.getElementById(
     "main-description"
   ).innerHTML = `<div class="project-description">
-      <p>A4baz</p>
+      <h3>A4baz</h3>
       <span>A4baz is a comprehensive repair services platform offering a swift registration process for over 300 services. Upon receiving a customer's order through the serviceman's mobile app, our skilled servicemen promptly provide a tailored offer based on the detailed customer information provided. Customers have the convenience of reviewing all service offers and selecting the most suitable one from the array of options available. Additionally, customers have the flexibility to choose whether the service is to be conducted at their home or our company premises.
        This versatile platform is accessible via both web and mobile applications, developed using the latest frameworks including Next.js and React Native, and is powered by TypeScript.
       </span>
@@ -44,7 +44,7 @@ document.getElementById("tapin").addEventListener("click", function () {
   document.getElementById(
     "main-description"
   ).innerHTML = `<div class="project-description">
-    <p>Tapin</p>
+    <h3>Tapin</h3>
     <span>Tapin is a logistics transportation platform that caters to businesses of all sizes, from home-based enterprises to large corporations, facilitating the delivery of packages nationwide. This versatile platform serves as a valuable resource for transportation companies, offering accessibility through both web and mobile applications. Developed using cutting-edge frameworks such as Bootstrap and React Native, Tapin harnesses the power of TypeScript to streamline operations 
     </span>
     <div class="view-project">
@@ -55,8 +55,11 @@ document.getElementById("tapin").addEventListener("click", function () {
     </div>
 </div>`;
 });
-document.getElementById("myProject").addEventListener("click", function () {
-  document.getElementById("main-description").innerHTML = `<div></div>`;
+document.getElementById("nextProject").addEventListener("click", function () {
+  document.getElementById(
+    "main-description"
+  ).innerHTML = `<div class="project-description">
+  </div>`;
 });
 document.getElementById("logo").addEventListener("click", function () {
   welcomeFunction();
