@@ -13,7 +13,7 @@
 
 <p align="center"> 
   <samp>
-    「 I am a front-end web and mobile application developer 」
+    「 I'm a web and mobile application front-end developer 」
     <br>
     <br>
   </samp>
@@ -38,7 +38,7 @@
  
 <p>
  <img align="right" width="350" src="./static/assets/images/programmer.gif" alt="Coding gif" />
-  
+  <br/><br/><br/><br/>
  ✌️ &emsp; Enjoy to do programming and sharing knowledge. <br/><br/>
  ❤️ &emsp; Love to writing code and learning new features.<br/><br/>
  ⚡ &emsp; I'm enthusiastic about secure coding on the website.<br/><br/>
