@@ -311,6 +311,7 @@ noscript strong {
   .projects-list {
     flex-direction: row;
     padding-top: 0;
+    width:auto;
   }
   #logo {
     font-size: 30px;
@@ -343,6 +344,7 @@ noscript strong {
 @media screen and (min-width: 561px) and (max-width: 760px) {
   .projects-list {
     flex-direction: row;
+    width: auto;
   }
   #logo {
     font-size: 25px;

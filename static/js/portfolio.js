@@ -59,7 +59,7 @@ document.getElementById("ahub").addEventListener("click", function () {
   document.getElementById(
     "main-description"
   ).innerHTML = `<div class="project-description">
-    <h3>Tapin</h3>
+    <h3>Ahub</h3>
     <span>
     ahub Photo is the best media management alternative to your phone’s native Photos app. You can manage your photos and videos, edit their metadata (such as location, tags, caption) or create diary like notes which you can organize and search to find with ease.   
     I have participated in developing of this project as one of the front-end developers.
