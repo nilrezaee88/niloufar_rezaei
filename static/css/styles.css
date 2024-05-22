@@ -20,7 +20,7 @@ body::before {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  animation: fadeInBackground 3s forwards;
+  animation: fadeInBackground 2s forwards;
   opacity: 0;
   z-index: -1;
 }
